@@ -1,19 +1,3 @@
-
-NIKHILBABE
-Open-Source
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Open-Source/SSBFUCK.py
-@NIKHILBABE
-NIKHILBABE Add files via upload
- 1 contributor
-303 lines (285 sloc)  13.6 KB
 #!/usr/bin/python3
 import os
 try:
