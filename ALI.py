@@ -295,7 +295,7 @@ def menu():
 				#dz._login()
 				exit()
 			elif xd in ['4','04']:
-				os.system('xdg-open https://wa.me/+923447546634')
+				os.system('xdg-open https://chat.whatsapp.com/GRCLEUOREdd1SDMTX1TsKk')
 				menu()
 			elif xd in ['0','00']:
 				exit(' Thanks for use 🥰 ')
