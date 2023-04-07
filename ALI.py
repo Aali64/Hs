@@ -20,7 +20,7 @@ except ModuleNotFoundError:
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python ALI.py')
 	
-print('[•] Join Our Group')
+print('[•] Join me on Facebook')
 os.system('xdg-open https://www.facebook.com/profile.php?id=100021074352995&mibextid=ZbWKwL/')
 
 try:
@@ -165,13 +165,10 @@ logo=("""\033[1;91m
  ####### #        #  
  #     # #        #  
  #     # ####### ### 
-                     
-
         \033[1;97m         
         \033[1;97m       
          \033[1;97m      
          \033[1;97m    
-          \033[1;97m \033[1;32m       XD
 \033[1;37m--------------------------------------------------
 [~] Author   : Ali Ahmed
 [~] Facebook : Ali Ahmed
