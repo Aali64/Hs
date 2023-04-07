@@ -24,7 +24,7 @@ print('[•] Join me on Facebook')
 os.system('xdg-open https://www.facebook.com/profile.php?id=100064983407240&mibextid=ZbWKwL/')
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+	prox= requests.get('https://github.com/Aali64/Hs/blob/main/approval.txt').text
 	open('proxies.txt','w').write(proxies)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
@@ -34,14 +34,14 @@ proxies=open('proxies.txt','r').read().splitlines()
 
 android_models=[]
 try:
-	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+	xx = requests.get('https://github.com/Aali64/Hs/blob/main/approval.txt').text.splitlines()
 	for line in xx:
 		android_models.append(line)
 except:pass
 
 usr=[]
 try:
-	xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
+	xd=requests.get('https://github.com/Aali64/Hs/blob/main/approval.txt').text.splitlines()
 	for us in xd:
 		usr.append(us)
 except: pass
@@ -295,7 +295,7 @@ def menu():
 				#dz._login()
 				exit()
 			elif xd in ['4','04']:
-				os.system('xdg-open https://chat.whatsapp.com/GRCLEUOREdd1SDMTX1TsKk')
+				os.system('xdg-open https://wa.me/+923447546634')
 				menu()
 			elif xd in ['0','00']:
 				exit(' Thanks for use 🥰 ')
@@ -1603,4 +1603,4 @@ try:
 except requests.exceptions.ConnectionError:
 	print('\n No internet connection ...')
 	exit()
-except:exit()
+except:exit().
