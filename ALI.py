@@ -1327,7 +1327,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/Aali64/Hs/commits?author=Aali64").text
+	r1=requests.get("https://github.com/Aali64/Hs/blob/main/approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
