@@ -1,6 +1,10 @@
 import requests
 import os
 import uuid
+def clear():
+	os.system('clear')
+def back():
+	login()
 ah="Xd-"
 imt="-M4786=="
 ak="ALII-"
