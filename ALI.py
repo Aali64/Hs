@@ -30,7 +30,6 @@ def Subscraption():
 		print("\t \033[1;32m First Get Approvel\033[1;37m ")
 		time.sleep(1)
 		os.system("clear")
-		print(logo)
 		print ("")
 		print(" \033[1;32mALI Toll Free BUT You Need Get Approved First\033[1;37m\n")
 		print(" \033[1;32m Note :ALI FREE Tool ENJOYA   \033[1;37m")
