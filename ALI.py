@@ -22,11 +22,9 @@ def Subscraption():
 	r1=requests.get("https://github.com/Aali64/Hs/blob/main/approval.txt").text
 	if key1 in r1:
 		os.system('clear')
-		print(logo)
 		Main()
 	else:
 		os.system("clear")
-		print(logo)
 		print("\t \033[1;32m First Get Approvel\033[1;37m ")
 		time.sleep(1)
 		os.system("clear")
