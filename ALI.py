@@ -19,7 +19,6 @@ print('hell9 this is me and how are you')
 def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrALI -cov', 'r').read()
 	clear()
-	print(logo)
 	r1=requests.get("https://github.com/Aali64/Hs/blob/main/approval.txt").text
 	if key1 in r1:
 		os.system('clear')
