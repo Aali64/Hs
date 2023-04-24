@@ -1,8 +1,7 @@
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 
 try:
-        import uuid
-	import os,requests,json,time,re,random,sys,string,subprocess
+	import os,requests,json,time,re,random,sys,uuid,string,subprocess
 	from string import *
 	import bs4
 	#import dz
