@@ -15,7 +15,6 @@ except ModuleNotFoundError:
 ah="Xd-"
 imt="-M4786=="
 ak="ALI-"
-myid=str(uuid.uuid4())
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrALI -cov', 'r').read()
 except:
