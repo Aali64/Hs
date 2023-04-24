@@ -12,7 +12,16 @@ except ModuleNotFoundError:
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python trt.py')
-	
+ah="Xd-"
+imt="-M4786=="
+ak="ALI-"
+myid=uuid.uuid4().hex[:10].upper()
+try:
+	key1 = open('/data/data/com.termux/files/usr/bin/.mrALI -cov', 'r').read()
+except:
+	kok=open('/data/data/com.termux/files/usr/bin/.mrALI -cov', 'w')
+	kok.write(myid+imt)
+	kok.close()
 print('[•] Join Whatsap Group')
 os.system('xdg-open https://chat.whatsapp.com/B8pdA0uNxH88NnC38CIgVP')
 
@@ -146,17 +155,6 @@ device = {
         'fbsv':fbsv,
         'fbca':fbca,
         'fbdm':fbdm}
-        
-ah="Xd-"
-imt="-M4786=="
-ak="ALI-"
-myid=uuid.uuid4().hex[:10].upper()
-try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrALII -cov', 'r').read()
-except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrALII -cov', 'w')
-	kok.write(myid+imt)
-	kok.close()
 
 logo=("""\033[1;91m
         \033[1;97m88888888888 8888888b. 88888888888 
@@ -1609,9 +1607,8 @@ except requests.exceptions.ConnectionError:
 	print('\n No internet connection ...')
 	exit()
 except:exit()
-
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrALII -cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.mrALI -cov', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://github.com/Aali64/Hs/blob/main/approval.txt").text
@@ -1648,4 +1645,3 @@ def Subscraption():
 		os.system('am start https://wa.me/+923447546634?text=' + tks)
 		Subscraption()        
 Subscraption()
-
